@@ -1,3 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using System;
 
-Console.WriteLine("Hello, World!");
+namespace COMP003A.Assignment4
+{
+    
+}
+
+class Program
+{
+    static void main()
+    {
+        
+    }
+}
