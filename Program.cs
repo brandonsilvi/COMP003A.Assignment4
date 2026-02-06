@@ -40,7 +40,13 @@ class Program
 
                 stepCount++; //adv the routine 1 step
 
-                
+                if (stepCount == restrictedStep) //skip restricted step
+                {
+                    Console.WriteLine("Step " + stepCount + "is restricted and skipped");
+                    stepCount++;
+                }
+                Console.WriteLine("Routine step" + stepCount + "completed");
+          
         
 
 
