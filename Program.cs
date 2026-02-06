@@ -46,7 +46,16 @@ class Program
                     stepCount++;
                 }
                 Console.WriteLine("Routine step" + stepCount + "completed");
-          
+            }
+            else if (option == 2) //view progress selection
+            {
+                Console.WriteLine("Current Steps completed: " + stepCount);
+            }
+            else if (option == 3) //end program
+            {
+                Console.WriteLine("Program ended");
+                break;     
+            }
         
 
 
